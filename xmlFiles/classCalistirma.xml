@@ -5,6 +5,7 @@
             <class name="tests.ders14_dependsOnMethods_softAssert.C02_DependsOnMethods"></class>
             <class name="tests.ders15_PageObjectModel.C03_PagesKullanimi"></class>
             <class name="tests.ders15_PageObjectModel.C02_DriverKullanimi"></class>
+            <class name="tests.ders16_PageObjectModel.C03_xmlFiles"></class>
         </classes>
     </test>
 </suite>
