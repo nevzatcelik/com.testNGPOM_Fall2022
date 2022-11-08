@@ -10,6 +10,9 @@ import java.time.Duration;
 
 public class Driver {
 
+    private Driver(){
+     // Singleton Patern konsepti ile Driver class'indan obje olusturmayi engellemek icin bu contructor i olusturduk
+    }
     static WebDriver driver;
 
     public static WebDriver getDriver(){
