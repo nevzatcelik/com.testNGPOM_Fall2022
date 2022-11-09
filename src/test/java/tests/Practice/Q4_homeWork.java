@@ -1,5 +1,7 @@
 package tests.Practice;
 
+import org.testng.annotations.Test;
+
 public class Q4_homeWork {
 
     /*
@@ -10,5 +12,10 @@ public class Q4_homeWork {
     *   Test1 : Choose price low to high
     *   Test2 : Verify item prices are sorted from low to high with soft Assert
      */
+
+    @Test
+    public void test01(){
+
+    }
 
 }
