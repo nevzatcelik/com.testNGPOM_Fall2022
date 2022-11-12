@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="paralel class calistirma" parallel="classes" thread-count="2">
+
+    <!--
+         Paralel calistirma ve cross browser calistirma birbirinden farkli konulardir
+         Paralel calistirma bir xml dosyasinda
+         calistiracagimiz test package/class veya methodlarini
+         ayni andan birden fazla browser acarak calistirma islemidir
+
+    -->
+    <test name="class test1">
+        <classes>
+            <class name="tests.ders14_dependsOnMethods_softAssert.C02_DependsOnMethods"></class>
+            <class name="tests.ders15_PageObjectModel.C03_PagesKullanimi"></class>
+            <class name="tests.ders15_PageObjectModel.C02_DriverKullanimi"></class>
+            <class name="tests.ders16_PageObjectModel.C03_xmlFiles"></class>
+        </classes>
+    </test>
+</suite>
